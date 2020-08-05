@@ -1,10 +1,13 @@
-package com.example.rentallio;
+package com.example.rentallio.activity;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.GridView;
+
+import com.example.rentallio.CustomCalendarAdapter;
+import com.example.rentallio.R;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

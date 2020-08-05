@@ -54,11 +54,13 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/btn_with_driver"
             android:layout_width="200dp"
             android:layout_height="75dp"
             android:text="@string/with_driver"/>
 
         <Button
+            android:id="@+id/btn_without_driver"
             android:layout_width="200dp"
             android:layout_height="75dp"
             android:layout_marginLeft="10dp"
@@ -74,6 +76,7 @@
 
     <LinearLayout
         android:id="@+id/linear_transmission"
+        android:visibility="gone"
         android:layout_below="@id/tv_transmission"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -279,7 +282,7 @@
         android:orientation="horizontal"
         android:gravity="center">
 
-        <androidx.appcompat.widget.AppCompatCheckBox
+        <CheckBox
             android:id="@+id/checkbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
@@ -298,6 +301,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:enabled="false"
         android:text="@string/book_now"
         android:background="@color/orangeRent"
         android:textSize="25sp"

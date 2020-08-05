@@ -1,10 +1,14 @@
-package com.example.rentallio;
+package com.example.rentallio.fragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+
+import com.example.rentallio.CategoryAdapter;
+import com.example.rentallio.ImageAdapter;
+import com.example.rentallio.R;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,7 +31,7 @@ public class HomeFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_home, container, false);
 
         RecyclerView recyclerView = view.findViewById(R.id.rv_grid);
-        GridLayoutManager gridLayoutManager = new GridLayoutManager(getActivity(), 4);//jumlah kolom
+        GridLayoutManager gridLayoutManager = new GridLayoutManager(getActivity(), 4);
         recyclerView.setLayoutManager(gridLayoutManager);
 
         imageCategory.add(R.drawable.city);
@@ -59,15 +63,4 @@ public class HomeFragment extends Fragment {
         return view;
     }
 
-//    private void imageCat(){
-//        imageCategory.add(R.drawable.city);
-//        imageCategory.add(R.drawable.suv);
-//        imageCategory.add(R.drawable.mpv);
-//        imageCategory.add(R.drawable.jeep);
-//        imageCategory.add(R.drawable.moped);
-//        imageCategory.add(R.drawable.scooter);
-//        imageCategory.add(R.drawable.trail);
-//        imageCategory.add(R.drawable.classic);
-//
-//    }
 }

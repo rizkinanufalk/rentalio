@@ -1,14 +1,18 @@
-package com.example.rentallio;
+package com.example.rentallio.activity;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.appcompat.widget.Toolbar;
-import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
 import android.view.MenuItem;
 
+import com.example.rentallio.R;
+import com.example.rentallio.fragment.AccountFragment;
+import com.example.rentallio.fragment.HelpFragment;
+import com.example.rentallio.fragment.HistoryFragment;
+import com.example.rentallio.fragment.HomeFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {

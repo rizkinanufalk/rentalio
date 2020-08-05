@@ -1,4 +1,4 @@
-package com.example.rentallio;
+package com.example.rentallio.fragment;
 
 import com.appeaser.sublimepickerlibrary.SublimePicker;
 import com.appeaser.sublimepickerlibrary.datepicker.SelectedDate;

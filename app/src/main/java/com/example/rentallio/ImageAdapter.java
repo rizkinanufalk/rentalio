@@ -12,7 +12,7 @@ public class ImageAdapter extends PagerAdapter {
     private Context konteks;
     private int[] images = new int[] {R.drawable.bannerslider, R.drawable.bannerslider_2};
 
-    ImageAdapter(Context context){
+    public ImageAdapter(Context context){
         konteks = context;
     }
 
