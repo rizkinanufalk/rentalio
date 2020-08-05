@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Rentallio</string>
+    <string name="home">HOME</string>
+    <string name="history">HISTORY</string>
+    <string name="help">HELP</string>
+    <string name="account">ACCOUNT</string>
+    <string name="driver_service">Driver Service</string>
+    <string name="without_driver">WITHOUT\nDRIVER</string>
+    <string name="with_driver">WITH\nDRIVER</string>
+    <string name="at">AT\nAutomatic Transmission</string>
+    <string name="mt">MT\nManual Transmission</string>
+    <string name="from">FROM</string>
+    <string name="price_estimate">PRICE ESTIMATE</string>
+    <string name="_24_hour">/24 HOUR</string>
+    <string name="terms_condition">I AGGREE TO ALL TERMS AND CONDITION APPLIED\n(Please swipe right to see the terms and condition</string>
+    <string name="book_now">BOOK NOW</string>
+    <string name="total">TOTAL</string>
+    <string name="rp">Rp.</string>
+    <string name="price">price</string>
+</resources>
